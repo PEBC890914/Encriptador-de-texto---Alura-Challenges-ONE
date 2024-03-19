@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Challenge Encriptador Alura</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="img/Logo.png" alt="logo">
+    </header>
+    <main>
+        <section class="seccion1">
+            <div class="contenedorCajaTexto">
+                <textarea class="cajaTexto" placeholder="Ingrese el texto aqui"></textarea>
+            </div>
+            <div class="alerta">
+                <p> &#9888; Solo letras minusculas y sin acentos</p>
+            </div>
+            <div class="info">
+                <p1> &#x1f5a5;&#xfe0f; Hecho por Carlos Pérez</p>
+                <p2> &#x1f535; <a href='https://www.linkedin.com/in/carlos-alberto-perez-bartolon-060953217/'> Linkedin</a> </p>
+            </div>
+            <div class="contenedorBotones">
+                <input type="button" class="botonEncriptar"
+                value="Encriptar">
+                <input type="button" class="botonDesencriptar"
+                value="Desencriptar">
+            </div>
+        </section>
+        <section class="seccion2">
+            <div class="contenedorMuneco">
+                <img src="img/Muñeco.png" alt="muneco">
+            </div>
+            <div class="contenedorParrafo">
+                <h3>Ningún mensaje fue <br> econtrado</h3>
+                <p>Ingresa el texto que desees encriptar o <br> desencriptar</p>
+            </div>
+            <div class="contenedorCopiar">
+                <input type="button" class="botonCopiar" value="Copiar">
+            </div>
+            <div class="contenedorResultado">
+                <p class="textoResultado"></p>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
